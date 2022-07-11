@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Teilt</title>
+    <link>https://teilt.github.io/posts/</link>
+    <description>Recent content in Posts on Teilt</description>
+    <image>
+      <url>https://teilt.github.io/cover_teilt.png</url>
+      <link>https://teilt.github.io/cover_teilt.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://teilt.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHYS04C8 Laboratory</title>
+      <link>https://teilt.github.io/posts/mmtlabfort/</link>
+      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://teilt.github.io/posts/mmtlabfort/</guid>
+      <description>Fortran programmes used in Mathematical Methods - III Lab</description>
+    </item>
+    
+    <item>
+      <title>Test Post</title>
+      <link>https://teilt.github.io/posts/test/</link>
+      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://teilt.github.io/posts/test/</guid>
+      <description>Gauss Seidel Method </description>
+    </item>
+    
+  </channel>
+</rss>
