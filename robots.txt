@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://teilt.github.io/sitemap.xml
