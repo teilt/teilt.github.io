@@ -66,15 +66,17 @@
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js" integrity="sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A" crossorigin="anonymous"></script>
 
 
+
+<link rel="manifest" href="/manifest.json">
 <meta property="og:title" content="Test Post" />
 <meta property="og:description" content="Gauss Seidel Method " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://teilt.github.io/posts/test/" /><meta property="og:image" content="https://teilt.github.io/cover_teilt.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://teilt.github.io/posts/test/" /><meta property="og:image" content="https://teilt.github.io/img/avatar.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-07-04T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2022-07-04T00:00:00&#43;00:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://teilt.github.io/cover_teilt.png"/>
+<meta name="twitter:image" content="https://teilt.github.io/img/avatar.png"/>
 
 <meta name="twitter:title" content="Test Post"/>
 <meta name="twitter:description" content="Gauss Seidel Method "/>
@@ -255,7 +257,22 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+  if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+          .register('/sw.js', { scope: '/' })
+          .then(function(registration) {
+              
+          });
+
+      navigator.serviceWorker
+          .ready
+          .then(function(registration) {
+              
+          });
+  }
+</script>
+
 
 <script>
     let menu = document.getElementById('menu')
