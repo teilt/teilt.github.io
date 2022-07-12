@@ -1,6 +1,7 @@
 {
   "name": "Teilt",
   "short_name": "Teilt",
+  "description": "Personal Website",
   "icons": [
     {
       "src": "/icons/favicon-128.png",
