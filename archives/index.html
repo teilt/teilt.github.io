@@ -68,10 +68,7 @@
 
 
 
-
-
-<link rel="manifest" href="/manifest.json">
-<meta property="og:title" content="Archive" />
+<link rel="manifest" href="/manifest.json"><meta property="og:title" content="Archive" />
 <meta property="og:description" content="archives" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://teilt.github.io/archives/" /><meta property="og:image" content="https://teilt.github.io/img/avatar.png"/><meta property="article:section" content="" />
@@ -235,21 +232,20 @@
         <path d="M12 6H0l6-6z" />
     </svg>
 </a><script>
-  if('serviceWorker' in navigator) {
-      navigator.serviceWorker
-          .register('/sw.js', { scope: '/' })
-          .then(function(registration) {
-              
-          });
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .then(function(registration) {
+                
+            });
 
-      navigator.serviceWorker
-          .ready
-          .then(function(registration) {
-              
-          });
-  }
-</script>
-
+        navigator.serviceWorker
+            .ready
+            .then(function(registration) {
+                
+            });
+    }
+  </script>
 
 <script>
     let menu = document.getElementById('menu')
